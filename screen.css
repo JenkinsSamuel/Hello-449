@@ -1,7 +1,54 @@
-body {
-  color: navy;
+.header {
+  height: 20px;
+  width: auto;
+  background-color: #424242;
 }
 
+
 h1 {
-  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding-right: 35px;                                         
+  height: 100px;
+  width: 100%;
+  line-height:6;
+}
+
+.flex {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+
+
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  border-radius: 50px;
+}
+
+.container {
+  display: flex;
+
+}
+
+.flex-box-1 {
+  flex: 1;
+  background-color: grey;
+  border-radius: 25px;
+
+
+}
+
+.flex-box-2 {
+  flex: 1;
+  background-color: grey;
+  border-radius: 25px;
+
+
 }
